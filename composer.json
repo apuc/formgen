@@ -1,0 +1,16 @@
+{
+  "name": "ctrlv/composer-package",
+  "description": "formgen",
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "require-dev": {
+
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "formgen\\form\\": "src/"
+    }
+  }
+}
